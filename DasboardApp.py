@@ -16,7 +16,7 @@ import plotly.express as px
 import numpy as np
 
 # Load dataset
-data = pd.read_csv("winequality-red.csv")
+data = pd.read_csv("data/winequality-red.csv")
 
 # check for missing values
 print(data.isnull().sum())
